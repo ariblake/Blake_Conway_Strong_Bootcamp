@@ -1,0 +1,31 @@
+.box-model {
+	background: #ccc;
+    padding: 2rem 0 2rem .5rem;
+    text-align: center;
+}
+
+/*Fonts*/
+
+#team1 {
+    background-color: red;
+    width: 50%;
+    display: inline-block;
+}
+
+#team2 {
+    background-color: pink;
+    width: 50%;
+    float: right;
+}
+
+#team3 {
+    background-color: green;
+    width: 50%;
+    display: inline-block;
+}
+
+#team4 {
+    background-color: orange;
+    width: 50%;
+    float:right;
+}
