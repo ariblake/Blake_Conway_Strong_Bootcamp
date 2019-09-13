@@ -34,10 +34,10 @@
           </div>
           <div id="main-menu"> <!--open main menu-->
             <ul id="mainNav">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#aboutLink">About</a></li>
+              <li><a href="#teamLink">Team</a></li>
+              <li><a href="#workLink">Work</a></li>
+              <li><a href="#contactLink">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -54,6 +54,7 @@
     </section>
 
     <!--Mission Section (About us & Mission Statement)-->
+    <a id="aboutLink"></a>
     <section class="grid-container full" id="missionSection">
       <div class="grid-x">
         <div class="cell large-12">
@@ -72,6 +73,7 @@
     </section>
 
     <!--Story Section (How our brand came to be)-->
+    <a id="teamLink"></a>
     <section class="grid-container full" id="storySection">
       <div class="grid-x">
         <div class="cell large-12">
@@ -86,13 +88,15 @@
     <section class="grid-container full" id="teamSection">
       <div class="grid-x">
         <div class="cell large-6" id="teamCon">
-          <div id="team1" class="team"><a><img src="images/hillary_placeholder.jpeg" alt="Hillary Strong"></a></div>
+          <div id="team1" class="team"><a><img src="images/hillary_placeholder.jpeg" alt="Hillary Strong" class="charBut" data-offset="0"></a></div>
           <div id="teamMeet"><h2>Meet the Team</h2></div>
-          <div id="team3" class="team"><a><img src="images/sarah_placeholder.jpg" alt="Sarah Conway"></a></div>
-          <div id="team4" class="team"><a><img src="images/ariana_placeholder.png" alt="Ariana Blake"></a></div>
+          <div id="team3" class="team"><a><img src="images/sarah_placeholder.jpg" alt="Sarah Conway" class="charBut" data-offset="1"></a></div>
+          <div id="team4" class="team"><a><img src="images/ariana_placeholder.png" alt="Ariana Blake" class="charBut" data-offset="2"></a></div>
         </div>
         <div class="cell large-6" id="teamSectionBio">
-          <p>Bio Info</p>
+          <h1 class="actorName"></h1>
+          <h2 class="charName"></h2>
+      		<p class="charInfo"></p>
         </div>
       </div>
     </section>
@@ -117,6 +121,7 @@
     </section>
 
     <!--Portfolio Section (Portfolio Links)-->
+    <a id="workLink"></a>
     <section class="grid-container full" id="portfolioSection">
       <div class="grid-x">
         <div class="cell large-12">
@@ -126,6 +131,7 @@
     </section>
 
     <!--Contact Section (Contact Us)-->
+    <a id="contactLink"></a>
     <section class="grid-container full" id="contactSection">
       <div class="grid-x">
         <div class="cell large-12">
