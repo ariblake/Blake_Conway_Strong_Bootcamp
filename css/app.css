@@ -5,27 +5,405 @@
 }
 
 /*Fonts*/
+h1 {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    color: #3F3F3F;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #3F3F3F;
+}
+
+.yellow {
+    color: #FAC952;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/*Header*/
+
+#mainHeader {
+    background-color: #fff;
+}
+
+.logoImg {
+    width: 15%;
+    display:inline;
+    margin-right: 2%;
+}
+
+.logoText {
+    color: #707070;
+    display: inline;
+    font-size: 2em;
+}
+
+#match {
+    color: #ff8503;
+}
+
+#mainNav {
+    background-color: white;
+}
+
+.title-bar {
+    background-color: white;
+}
+
+.menu-icon::after {
+	background-color: #707070;
+	box-shadow: 0 7px 0 #707070, 0 14px 0 #707070;
+}
+
+#mainNav {
+	list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+#mainNav li {
+    border-bottom: 1px solid #fff;
+}
+
+#mainNav li:first-child {
+	border-top: 1px solid #efefef;
+}
+
+#mainNav li:last-child {
+	margin-bottom: 5px;
+}
+
+#mainNav li a {
+	display: block;
+	padding: 5px 0 5px 0;
+	color: #fff;
+	background-color: #ff8503;
+}
+
+#mainNav li a:hover {
+	background-color: #fff;
+	color: #ff8503;
+}
+
+/*Hero Section*/
+#heroSection {
+    background: linear-gradient(rgba(255, 133, 3, 0.5), rgba(255, 133, 3, 0.5)),
+                url(../images/heroImg.jpg) no-repeat center fixed;
+    text-align: center;
+    height: 92vh;
+    display: block;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+#heroSection h1 {
+    padding-top: 50%;
+    color:  white;
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+/*Mission Section*/
+#missionSection {
+    height: 93vh;
+    padding-top: 30%;
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: center;
+}
+
+#missionSection h2 {
+    font-size: 2.6em;
+    margin-bottom: 10%;
+}
+
+/*Video Section*/
+#videoSection {
+    background: url(../images/video_placeholder.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    background-color: grey;
+    height: 92vh;
+
+}
+
+/*Story Section*/
+#storySection {
+    height: 93vh;
+    padding-top: 25%;
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: center;
+}
+
+#storySection h2 {
+    font-size: 2.6em;
+    margin-bottom: 10%;
+}
+
+/*Team Section*/
+#teamSection {
+    height: 93vh;
+    background-color: #ff8503;
+}
+
+#teamSectionBio {
+    background: linear-gradient(rgba(255, 133, 3, 0.9), rgba(255, 133, 3, 0.9)),
+                url(../images/bio_bckgrd.jpg) no-repeat center fixed;
+    background-size: 300%;
+    height: 50vh;
+}
+
+#teamMeet {
+    background-color: white;
+    width: 50%;
+    float: right;
+    height: 25vh;
+}
+
+#teamMeet h2 {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 3em;
+}
 
 #team1 {
     background-color: red;
-    width: 50%;
     display: inline-block;
-}
-
-#team2 {
-    background-color: pink;
-    width: 50%;
-    float: right;
 }
 
 #team3 {
     background-color: green;
-    width: 50%;
     display: inline-block;
 }
 
 #team4 {
     background-color: orange;
+    float: right;
+}
+
+.team {
+    height: 25vh;
     width: 50%;
-    float:right;
+    overflow: hidden;
+    vertical-align: bottom;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.team:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+/*Services Section*/
+#servicesSection {
+    height: 100vh;
+    padding-top: 50%;
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: left;
+}
+
+#servicesSection h2 {
+    font-size: 2.6em;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#servicesSection ul {
+    list-style: none;
+    font-size: 1.4em;
+    line-height: 150%;
+}
+
+#servicesSection ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #FAC952;
+    font-weight: bold; /* If you want it to be bold */
+    font-size: 1.4em;
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    
+  }
+
+@media screen and (min-width: 48em) /*Tablet Size*/ {
+    #heroSection h1 {
+        padding-top:35%;
+        font-size: 5em;
+    }
+
+    #teamMeet {
+        background-color: white;
+        width: 50%;
+        float: right;
+        height: 46vh;
+    }
+    
+    #teamMeet h2 {
+        text-align: center;
+        padding: 20%;
+        font-size: 3.4em;
+    }
+    
+    #team1 {
+        background-color: red;
+        width: 50%;
+        display: inline-block;
+        height: 46vh;
+    }
+    
+    #team3 {
+        background-color: green;
+        width: 50%;
+        display: inline-block;
+        height: 46vh;
+    }
+    
+    #team4 {
+        background-color: orange;
+        width: 50%;
+        float:right;
+        height: 46vh;
+    }
+
+    #teamSectionBio {
+        height: 93vh;
+    }
+}
+
+@media screen and (min-width: 64em) /*Laptop Small Size*/ {
+
+    #mainHeader {
+        padding: 10px;
+    }
+
+	#mainNav {
+		text-align: right;
+		float: left;
+        background-color: transparent;
+        float: right;
+        padding-top: 1%;
+
+	}
+
+	#mainNav li {
+		border-bottom: none;
+        display: inline;
+        padding: 20px;
+        font-size: 1em;
+	}
+
+	#mainNav li a {
+		display: inline;
+		color: #707070;
+		background-color: transparent;
+
+    }
+    
+    #mainNav li a:hover {
+		background-color: transparent;
+		color: #ff8503;
+    }
+    
+    #heroSection h1 {
+        padding-top: 25%;
+        font-size: 5em;
+    }
+
+    /*Mission Section*/
+    #missionSection {
+        padding-top: 16%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #missionSection h2 {
+        font-size: 3em;
+        margin-bottom: 5%;
+    }
+
+    #missionSection p {
+        font-size: 1.2em;
+    }
+
+    #videoSection {
+        height: 92vh;
+    }
+
+    /*Story Section*/
+    #storySection {
+        column-count: 2;
+        column-gap: 8%;
+        padding-top: 12%;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: left;
+    }
+
+    #storySection h2 {
+        font-size: 3em;
+        margin-bottom: 5%;
+    }
+
+    #storySection p {
+        font-size: 1.2em;
+    }
+
+    #teamSectionBio {
+        background-size: 120%;
+    }
+}
+
+@media screen and (min-width: 90em) /*Large Laptop Size*/ {
+    #heroSection h1 {
+        padding-top: 18%;
+    }
+
+    /*Mission Section*/
+    #missionSection {
+        padding-top: 12%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    #missionSection h2 {
+        font-size: 3.2em;
+        margin-bottom: 5%;
+    }
+
+    #missionSection p {
+        font-size: 1.4em;
+    }
+
+    #storySection {
+        column-gap: 4%;
+        padding-top: 10%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    #storySection h2 {
+        font-size: 3.2em;
+        margin-bottom: 5%;
+    }
+
+    #storySection p {
+        font-size: 1.4em;
+    }
 }

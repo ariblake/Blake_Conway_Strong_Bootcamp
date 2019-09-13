@@ -7,15 +7,17 @@
     <title>Matchstick</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pft5sgp.css">
   </head>
   <body>
     <!--Header (Logo and Navigation)-->
-    <header class="grid-container full" id="mainHeader">
+    <header data-sticky data-options="marginTop:0; stickyOn:small;" style="width:100%" class="grid-container full" id="mainHeader">
       <div class="grid-x">
         <!--Logo-->
         <div class="cell show-for-large large-3" id="logo">
           <a href="index.html">
-            <img src="images/logo.svg" alt="logo" id="logoImg">
+            <img src="images/logo.svg" alt="logo" class="logoImg">
+            <h1 class="logoText"><span id="match">match</span>stick</h1>
           </a>
         </div>
         <!--Main Nav-->
@@ -23,7 +25,8 @@
           <h2 class="hide">Main Navigation</h2>
           <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
             <a href="index.html">
-              <img src="images/logo.svg" alt="logo" id="logoImg">
+              <img src="images/logo.svg" alt="logo" class="logoImg">
+              <h1 class="logoText"><span id="match">match</span>stick</h1>
             </a>
             <div class="title-bar-right">
               <button class="menu-icon" type="button" data-toggle="main-menu"></button>
@@ -31,10 +34,10 @@
           </div>
           <div id="main-menu"> <!--open main menu-->
             <ul id="mainNav">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">The Team</a></li>
-              <li><a href="#">Our Work</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -45,7 +48,7 @@
     <section class="grid-container full" id="heroSection">
       <div class="grid-x">
         <div class="cell small-12">
-          <p class="box-model">Hero Section</p>
+          <h1>Spark Creativity</h1>
         </div>
       </div>
     </section>
@@ -54,7 +57,8 @@
     <section class="grid-container full" id="missionSection">
       <div class="grid-x">
         <div class="cell large-12">
-          <p class="box-model">Mission Section</p>
+          <h2>We love what we do and are great at doing it<span class="yellow">.</span></h2>
+          <p>Matchstick is a full-service creative agency with a purpose-driven approach. The things we do are of real value to others. This stems from our values which include being talented, passionate and fiery. We start a fire to ensure our clients are setting the bar high in their industries, communities, and culture.</p>
         </div>
       </div>
     </section>
@@ -63,16 +67,17 @@
     <section class="grid-container full" id="videoSection">
       <div class="grid-x">
         <div class="cell large-12">
-          <p class="box-model">Video Section</p>
         </div>
       </div>
     </section>
 
-    <!--Background Section (How our brand came to be)-->
-    <section class="grid-container full" id="backgroundSection">
+    <!--Story Section (How our brand came to be)-->
+    <section class="grid-container full" id="storySection">
       <div class="grid-x">
         <div class="cell large-12">
-          <p class="box-model">Background Section</p>
+          <h2>This is our story<span class="yellow">.</span></h2>
+          <p>In 2016, three school classmates met and founded their own advertising and marketing agency. This agency has repeatedly shown growth and change over the years, better adapting to clients, technology and surroundings. Ariana, Sarah and Hillary all attend Western University and Fanshawe College for Interactive Media Design. Each founder has developed a passion for design, code and video and wanted to share their skills with members of the London, Ontario community.</p>
+          <p>The Matchstick team is a perfect match and will share their creativity every strike of the way with you.</p>
         </div>
       </div>
     </section>
@@ -81,13 +86,13 @@
     <section class="grid-container full" id="teamSection">
       <div class="grid-x">
         <div class="cell large-6" id="teamCon">
-          <div id="team1"><p>Team</p></div>
-          <div id="team2"><p>Team img 1</p></div>
-          <div id="team3"><p>Team img 2</p></div>
-          <div id="team4"><p>Team img 3</p></div>
+          <div id="team1" class="team"><a><img src="images/hillary_placeholder.jpeg" alt="Hillary Strong"></a></div>
+          <div id="teamMeet"><h2>Meet the Team</h2></div>
+          <div id="team3" class="team"><a><img src="images/sarah_placeholder.jpg" alt="Sarah Conway"></a></div>
+          <div id="team4" class="team"><a><img src="images/ariana_placeholder.png" alt="Ariana Blake"></a></div>
         </div>
-        <div class="cell large-6">
-          <p class="box-model">Team Section Bio</p>
+        <div class="cell large-6" id="teamSectionBio">
+          <p>Bio Info</p>
         </div>
       </div>
     </section>
@@ -96,7 +101,17 @@
     <section class="grid-container full" id="servicesSection">
       <div class="grid-x">
         <div class="cell large-12">
-          <p class="box-model">Services Section</p>
+          <h2>What we do</h2>
+          <ul>
+            <li>Design</li>
+            <li>Social Media</li>
+            <li>Video</li>
+            <li>Branding</li>
+            <li>Animation</li>
+            <li>Web Development</li>
+            <li>Advertising</li>
+            <li>Have Fun :)</li>
+          </ul>
         </div>
       </div>
     </section>
