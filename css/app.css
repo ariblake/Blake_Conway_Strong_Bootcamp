@@ -30,6 +30,7 @@ p {
 html, body {
     height: 100%;
     width: 100%;
+    /*scroll-behavior: smooth;*/
 }
 
 /*Header*/
@@ -165,7 +166,22 @@ html, body {
                 url(../images/bio_bckgrd.jpg) no-repeat center fixed;
     background-size: 300%;
     height: 50vh;
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
+
+#teamSectionBio h1 {
+    color: white;
+    font-size: 2.6em;
+}
+
+#teamSectionBio h2 {
+    color: white;
+    font-size: 2em;
+}
+
 
 #teamMeet {
     background-color: white;
@@ -178,6 +194,7 @@ html, body {
     text-align: center;
     padding-top: 20%;
     font-size: 3em;
+    color: #3F3F3F;
 }
 
 #team1 {
@@ -210,10 +227,15 @@ html, body {
     filter: grayscale(0%);
 }
 
+.team:visited {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
 /*Services Section*/
 #servicesSection {
     height: 100vh;
-    padding-top: 50%;
+    padding-top: 30%;
     padding-left: 12%;
     padding-right: 12%;
     text-align: left;
@@ -284,6 +306,15 @@ html, body {
 
     #teamSectionBio {
         height: 93vh;
+    }
+
+    /*Services Section*/
+    #servicesSection {
+        height: 93vh;
+        padding-top: 30%;
+        padding-left: 12%;
+        padding-right: 12%;
+        text-align: left;
     }
 }
 
@@ -367,6 +398,27 @@ html, body {
 
     #teamSectionBio {
         background-size: 120%;
+    }
+
+    /*Services Section*/
+    #servicesSection {
+        height: 93vh;
+        padding-top: 8%;
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: left;
+        
+    }
+
+    #servicesSection ul {
+        column-count: 2;
+        column-gap: 8%;
+        padding-left: 15%;
+        font-size: 1.8em;
+    }
+
+    #servicesSection h2 {
+        font-size: 3em;
     }
 }
 
