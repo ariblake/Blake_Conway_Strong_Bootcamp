@@ -1,5 +1,5 @@
-# Matchstick
-This project was built for an assignment for Fanshawe College. In groups of 3, we were to create, brand and build a fictional startup agency. After brainstorming, the name Matchstick came to the surface. Matchstick is a advertising and marketing agency located in London, Ontario. This name described our mission statement words perfectly; we are passionate about our work, find the latest trends and overall, we are hot :fire:
+# Matchstick - Spark Creativity
+This project was built for an assignment for Fanshawe College. In groups of 3, we were to create, brand and build a fictional startup agency. After brainstorming, the name Matchstick was born. Matchstick is an advertising and marketing agency located in London, Ontario. This name described our mission statement words perfectly; we are passionate about our work, find the latest trends and overall, we are hot :fire:
 ## Built With
 * [Foundation](https://foundation.zurb.com "Foundation") - Foundation Framework
 * CSS
