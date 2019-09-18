@@ -14,9 +14,9 @@ import Team from "./modules/DataObject.js";
 
         bioInfo[0].textContent = Team[currentTeam].name;
         bioInfo[1].textContent = Team[currentTeam].role;
-        bioInfo[2].textContent = Team[currentTeam].motivation;
-        bioInfo[3].textContent = Team[currentTeam].interests;
-        bioInfo[4].textContent = Team[currentTeam].match;
+        bioInfo[2].textContent = `Work Motivation: ${Team[currentTeam].motivation}`;
+        bioInfo[3].textContent = `Interests: ${Team[currentTeam].interests}`;
+        bioInfo[4].textContent = `Favourite Match: ${Team[currentTeam].match}`;
     }
 
     //making temporary variable 
