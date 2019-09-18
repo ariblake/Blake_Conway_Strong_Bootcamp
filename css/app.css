@@ -60,7 +60,7 @@ html, body {
     font-size: 2em;
 }
 
-#match {
+.match {
     color: #ff8503;
 }
 
@@ -187,12 +187,12 @@ html, body {
     padding-right: 10%;
 }
 
-.teamSectionBio h1 {
+.teamSectionBio h2 {
     color: white;
     font-size: 2em;
 }
 
-.teamSectionBio h2 {
+.teamSectionBio h3 {
     color: white;
     font-size: 1.6em;
     padding-bottom: 5%;
@@ -394,11 +394,11 @@ html, body {
         width: 50%;
     }
 
-    .teamSectionBio h1 {
+    .teamSectionBio h2 {
         font-size: 1.8em;
     }
     
-    .teamSectionBio h2 {
+    .teamSectionBio h3 {
         font-size: 1.4em;
         padding-bottom: 0%;
     }
@@ -681,11 +681,11 @@ html, body {
         padding-top: 15%;
     }
 
-    .teamSectionBio h1 {
+    .teamSectionBio h2 {
         font-size: 2.6em;
     }
 
-    .teamSectionBio h2 {
+    .teamSectionBio h3 {
         font-size: 2em;
     }
 
