@@ -7,15 +7,24 @@
 /*Fonts*/
 h1 {
     font-family: canada-type-gibson, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 2em;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 3em;
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4em;
     color: #3F3F3F;
+}
+
+h3 {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4em;
 }
 
 p {
@@ -103,7 +112,7 @@ html, body {
     background: linear-gradient(rgba(255, 133, 3, 0.5), rgba(255, 133, 3, 0.5)),
                 url(../images/heroImg.jpg) no-repeat center fixed;
     text-align: center;
-    height: 92vh;
+    height: 93vh;
     display: block;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -112,10 +121,15 @@ html, body {
 }
 
 #heroSection h1 {
-    padding-top: 50%;
+    padding-top: 45%;
     color:  white;
     font-size: 4em;
-    letter-spacing: 2px;
+    line-height: 100%;
+
+}
+
+#heroSection h3 {
+    color:  white;
 }
 
 /*Mission Section*/
@@ -136,8 +150,9 @@ html, body {
 #videoSection {
     background: url(../images/video_placeholder.jpg) no-repeat center center fixed;
     background-size: 100%;
-    background-color: grey;
-    height: 92vh;
+    background-color: #ccc;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
 
 }
 
@@ -161,27 +176,32 @@ html, body {
     background-color: #ff8503;
 }
 
-#teamSectionBio {
+.teamSectionBio {
     background: linear-gradient(rgba(255, 133, 3, 0.9), rgba(255, 133, 3, 0.9)),
                 url(../images/bio_bckgrd.jpg) no-repeat center fixed;
     background-size: 300%;
-    height: 50vh;
+    height: 42vh;
     text-align: center;
-    padding-top: 15%;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-#teamSectionBio h1 {
-    color: white;
-    font-size: 2.6em;
-}
-
-#teamSectionBio h2 {
+.teamSectionBio h1 {
     color: white;
     font-size: 2em;
 }
 
+.teamSectionBio h2 {
+    color: white;
+    font-size: 1.6em;
+    padding-bottom: 5%;
+}
+
+.teamSectionBio p {
+    color: white;
+    text-align: left;
+}
 
 #teamMeet {
     background-color: white;
@@ -192,42 +212,27 @@ html, body {
 
 #teamMeet h2 {
     text-align: center;
-    padding-top: 20%;
-    font-size: 3em;
+    padding-top: 15%;
+    font-size: 2.6em;
     color: #3F3F3F;
 }
 
-#team1 {
-    background-color: red;
-    display: inline-block;
-}
-
-#team3 {
-    background-color: green;
-    display: inline-block;
-}
-
 #team4 {
-    background-color: orange;
     float: right;
 }
 
 .team {
     height: 25vh;
+    display: inline-block;
     width: 50%;
     overflow: hidden;
-    vertical-align: bottom;
+    vertical-align: top;
     transition: filter .5s ease-in-out;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 
 .team:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-}
-
-.team:visited {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
 }
@@ -251,6 +256,8 @@ html, body {
     list-style: none;
     font-size: 1.4em;
     line-height: 150%;
+    font-family: canada-type-gibson, sans-serif;
+    color: #3F3F3F;
 }
 
 #servicesSection ul li::before {
@@ -261,7 +268,6 @@ html, body {
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
-    
   }
 
   /*Portfolio Section*/
@@ -302,21 +308,101 @@ html, body {
   /*Contact Section*/
   #contactSection {
     height: 93vh;
-    background-color: #ccc;
+    background-color: #eee;
     padding-top: 25%;
     padding-left: 12%;
     padding-right: 12%;
+    color: #3F3F3F;
+    text-align: center;
+  }
+
+  ::placeholder {
+      font-family: canada-type-gibson, sans-serif;
+      color: #3F3F3F;
+  }
+
+  #message {
+      margin-bottom: 10%;
   }
 
   #contactButton {
     background-color: #FAC952;
 	font-family: canada-type-gibson, sans-serif;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	color: #3F3F3F;
-	padding: 10px 20px;
+    padding: 15px 50px;
 	transition: .3s;
 	text-decoration-color: #fff;
   }
+
+    /*Footer*/
+    #mainFooter {
+        background-color: #ff8503;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    #socialMedia {
+        padding-bottom: 5%;
+    }
+
+    #socialMedia a{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #socialMedia img {
+        width: 10%;
+    }
+
+
+    /*PORTFOLIO PAGE-----------------------------------------------------------------------------*/
+    /*Hero Section*/
+    #heroSection_portfolio {
+        background: linear-gradient(rgba(255, 133, 3, 0.5), rgba(255, 133, 3, 0.5)),
+                    url(../images/heroImg_portfolio.jpg) no-repeat center fixed;
+        text-align: center;
+        height: 92vh;
+        display: block;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+    }
+
+    #heroSection_portfolio img {
+        width: 10%;
+    }
+
+@media screen and (min-width: 40em) /*L Phone Size*/ {
+    .teamSectionBio {
+        height: 30vh;
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    #teamMeet {
+        height: 30vh;
+        padding-top: 5%;
+    }
+    
+    .team {
+        height: 30vh;
+        width: 50%;
+    }
+
+    .teamSectionBio h1 {
+        font-size: 1.8em;
+    }
+    
+    .teamSectionBio h2 {
+        font-size: 1.4em;
+        padding-bottom: 0%;
+    }
+}
 
 @media screen and (min-width: 48em) /*Tablet Size*/ {
     #heroSection h1 {
@@ -475,6 +561,7 @@ html, body {
         font-size: 3em;
     }
 
+    /*Portfolio Section*/
     #portfolioSection {
         height: 93vh;
         overflow: hidden;

@@ -1,31 +1,58 @@
 $(document).foundation();
+
+//import Team from "./modules/DataObject.js";
 (() => {
-    //Variables
-    console.log("hello");
-    let buttons = document.querySelectorAll('.charBut'); //buttons for character section
-        //imageBanner = document.querySelector('#castImages'), //banner of character images
+    // console.log('fired!');
 
-    //character information arrays
-    var actorName = [`Hillary Strong`, `Sarah Conway`, `Ariana Blake`],
-        charName = [`Graphic Designer`, `Motion Designer`, `Front-End Developer`],
-        charInfo = [`Bio Placeholder`,
-                    `Bio Placeholder`,
-                    `Bio Placeholder`];
+    // const bioInfo = document.querySelector('.teamSectionBio').children;
+    // const Team = {
+    //     Sarah : {
+    //         name: "name",
+    //         role: "role",
+    //         motivation: "motivation",
+    //         interests: "interests",
+    //         match: "match"
+    //     },
+    
+    //     Hillary : {
+    //         name: "name",
+    //         role: "role",
+    //         motivation: "motivation",
+    //         interests: "interests",
+    //         match: "match"
+    //     },
+    
+    //     Ariana : {
+    //         name: "Ariana Blake",
+    //         role: "Front-End Developer, Co-Founder",
+    //         motivation: "Creating cool stuff that is both functional and aesthetically pleasing",
+    //         interests: "Playing video games, petting dogs, and board game nights with friends",
+    //         match: "Mac & Cheese!"
+    //     };
 
-    //Functions
-    //function to scroll the cast photos and information on the Film page
-    function scrollCast() {
-      offset = this.dataset.offset;
+    //     buttons = document.querySelectorAll('.team');
+        
+    // }
 
-      //replace the default cast information with that specific to the character button clicked
-      document.querySelector('.actorName').textContent = `${actorName[offset]}`;
-      document.querySelector('.charName').textContent = `${charName[offset]}`;
-      document.querySelector('.charInfo').textContent = `${charInfo[offset]}`;
-    }
+    // function showTeamBio() {
+    //     let currentTeam = this.textContent;
 
-    //Event Handling
-    if (buttons) {
-        buttons.forEach(button => button.addEventListener('click', scrollCast)); //cast image and information changes when the buttons are clicked
-    }
+    //     bioInfo[0].textContent = Team[currentTeam].name;
+    //     bioInfo[1].textContent = Team[currentTeam].role;
+    //     bioInfo[2].textContent = Team[currentTeam].motivation;
+    //     bioInfo[3].textContent = Team[currentTeam].interests;
+    //     bioInfo[4].textContent = Team[currentTeam].match;
+    // }
+
+    // for (let person in Team) {
+    //     console.log(person);
+
+    //     //let teamButton = document.querySelector('.team');
+    //     if (buttons) {
+    //         buttons.forEach(button => button.addEventListener('click', showTeamBio)); //cast image and information changes when the buttons are clicked
+    //       }
+    //     //teamButton.addEventListener('click', showTeamBio);
+    //     //document.querySelector("#teamSection").appendChild(teamButton);
+    // }
 
 })();
