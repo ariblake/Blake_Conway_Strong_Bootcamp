@@ -9,10 +9,11 @@ This project was built for an assignment for Fanshawe College. In groups of 3, w
 * **Hillary Strong** (https://github.com/hillary25) - Graphic Designer
 ## Things We Wanted to Achieve
 - [x] Use Adobe XD for wireframes
-- [x] Javascript video player
 - [x] Responsive design
+- [x] Javascript video player
+- [ ] Javascript biography function
 ## Installation
-Open your computers Terminal
+Open Terminal on your computer
 ```
 # Pick the location of where you want this repository stored - for example purposes, this will be located on your desktop
 
