@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matchstick - Chico's Adventures</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pft5sgp.css">
+  </head>
+  <body>
+    <!--Header (Logo and Navigation)-->
+    <header data-sticky data-options="marginTop:0; stickyOn:small;" style="width:100%" class="grid-container full" id="mainHeader">
+      <div class="grid-x">
+        <!--Logo-->
+        <div class="cell show-for-large large-3" id="logo">
+          <a href="index.html">
+            <img src="images/logo.svg" alt="logo" class="logoImg">
+            <h1 class="logoText"><span id="match">match</span>stick</h1>
+          </a>
+        </div>
+        <!--Main Nav-->
+        <nav class="cell small-12 large-9">
+          <h2 class="hide">Main Navigation</h2>
+          <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
+            <a href="index.html">
+              <img src="images/logo.svg" alt="logo" class="logoImg">
+              <h1 class="logoText"><span id="match">match</span>stick</h1>
+            </a>
+            <div class="title-bar-right">
+              <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+            </div>
+          </div>
+          <div id="main-menu"> <!--open main menu-->
+            <ul id="mainNav">
+              <li><a href="#aboutLink">About</a></li>
+              <li><a href="#teamLink">Team</a></li>
+              <li><a href="#workLink">Work</a></li>
+              <li><a href="#contactLink">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--Hero Section (Logo)-->
+    <section class="grid-container full" id="heroSection_portfolio">
+      <div class="grid-x">
+        <div class="cell small-12">
+          <img src="images/chico_logo.png">
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section (Contact Us)-->
+    <a id="contactLink"></a>
+    <section class="grid-container full" id="contactSection">
+      <div class="grid-x">
+        <form class="cell large-12" id="contactForm">
+          <h1>Strike a match</h1>
+          <p>Like what you see? Fill out the form below to get in contact with us and prepare to be impressed.</p>
+          <label for="name">Name</label>
+          <input type="text" required placeholder="Name" id="name" class="contactInput">
+
+          <label for="email">Email</label>
+          <input type="email" required placeholder="Email" id="email" class="contactInput">
+
+          <label for="message">Message</label>
+          <textarea required placeholder="Message" id="message" class="contactInput"></textarea>
+          <a id="contactButton" href="#">Send</a>
+        </form>
+      </div>
+    </section>
+
+    <!--Footer (Copyright & Social Media Links)-->
+    <section class="grid-container full" id="mainFooter">
+      <div class="grid-x">
+        <div class="cell large-12">
+          <p>Copyright 2019, Matchstick. All Rights Reserved.</p>
+          <div id="socialMedia">
+            <h2 class="hide">Social Media Links</h2>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Image of Facebook Icon" title="Matchstick Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Image of Twitter Icon" title="Matchstick Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Image of Instagram Icon" title="Matchstick Instagram"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
