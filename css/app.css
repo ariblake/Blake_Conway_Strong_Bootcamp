@@ -239,8 +239,8 @@ html, body {
 
 /*Services Section*/
 #servicesSection {
-    height: 100vh;
-    padding-top: 30%;
+    height: 93vh;
+    padding-top: 25%;
     padding-left: 12%;
     padding-right: 12%;
     text-align: left;
@@ -282,7 +282,7 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
+    height: 110%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
@@ -410,51 +410,50 @@ html, body {
         font-size: 5em;
     }
 
+    #storySection {
+        padding-top: 20%;
+    }
+
+    #storySection h2 {
+        margin-bottom: 5%;
+    }
+
+    #teamSection {
+        height: 132vh;
+    }
+
     #teamMeet {
-        background-color: white;
-        width: 50%;
-        float: right;
+        height: 46vh;
+    }
+
+    .team {
         height: 46vh;
     }
     
     #teamMeet h2 {
-        text-align: center;
-        padding: 20%;
-        font-size: 3.4em;
-    }
-    
-    #team1 {
-        background-color: red;
-        width: 50%;
-        display: inline-block;
-        height: 46vh;
-    }
-    
-    #team3 {
-        background-color: green;
-        width: 50%;
-        display: inline-block;
-        height: 46vh;
-    }
-    
-    #team4 {
-        background-color: orange;
-        width: 50%;
-        float:right;
-        height: 46vh;
+        padding: 18%;
+        font-size: 3em;
     }
 
-    #teamSectionBio {
-        height: 93vh;
+    .teamSectionBio {
+        height: 40vh;
     }
 
     /*Services Section*/
     #servicesSection {
-        height: 93vh;
-        padding-top: 30%;
-        padding-left: 12%;
-        padding-right: 12%;
-        text-align: left;
+        padding-top: 20%;
+    }
+
+    #servicesSection ul {
+        column-count: 2;
+        column-gap: 10%;
+        padding-left: 10%;
+        font-size: 1.6em;
+        line-height: 2em;
+    }
+
+    #socialMedia img {
+        width: 8%;
     }
 }
 
@@ -470,7 +469,6 @@ html, body {
         background-color: transparent;
         float: right;
         padding-top: 1%;
-
 	}
 
 	#mainNav li {
@@ -494,7 +492,10 @@ html, body {
     
     #heroSection h1 {
         padding-top: 25%;
-        font-size: 5em;
+    }
+
+    #heroSection h3 {
+        font-size: 1.6em;
     }
 
     /*Mission Section*/
@@ -511,10 +512,6 @@ html, body {
 
     #missionSection p {
         font-size: 1.2em;
-    }
-
-    #videoSection {
-        height: 92vh;
     }
 
     /*Story Section*/
@@ -536,8 +533,27 @@ html, body {
         font-size: 1.2em;
     }
 
-    #teamSectionBio {
-        background-size: 120%;
+    #teamSection {
+        height: 93vh;
+        overflow: hidden;
+    }
+
+    .teamSectionBio {
+        height: 93vh;
+        padding-top: 20%;
+    }
+
+    #teamMeet {
+        height: 93vh;
+        padding-top: 40%;
+    }
+
+    .team {
+        height: 31vh;
+    }
+
+    #team4 {
+        float: none;
     }
 
     /*Services Section*/
@@ -569,6 +585,58 @@ html, body {
 
     .portfolio {
         height: 46vh;
+    }
+
+    #contactSection {
+        padding-top: 15%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #contactSection h1 {
+        font-size: 3em;
+    }
+
+    #contactSection p {
+        font-size: 1.2em;
+        padding-bottom: 5%;
+    }
+
+    #name {
+        float: left;
+        width: 49%;
+    }
+
+    #email {
+        float: right;
+        width: 49%;
+    }
+
+    #contactButton {
+        float: left;
+    }
+
+    #socialMedia {
+        float: right;
+    }
+
+    #socialMedia img {
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 84.125em) { /*medium laptop*/
+    #teamMeet {
+        height: 50vh;
+        padding-top: 10%;
+    }
+
+    .team {
+        height: 50vh;
+    }
+
+    #team4 {
+        float: right;
     }
 }
 
@@ -608,4 +676,37 @@ html, body {
     #storySection p {
         font-size: 1.4em;
     }
+
+    .teamSectionBio {
+        padding-top: 15%;
+    }
+
+    .teamSectionBio h1 {
+        font-size: 2.6em;
+    }
+
+    .teamSectionBio h2 {
+        font-size: 2em;
+    }
+
+    .teamSectionBio p {
+        font-size: 1.4em;
+    }
+
+    #contactSection {
+        padding-top: 12%;
+    }
+
+    #contactSection h2 {
+        font-size: 3.2em;
+    }
+
+    #contactSection p {
+        font-size: 1.4em;
+    }
+
+    #mainFooter {
+        padding-left: 0%;
+    }
+
 }
