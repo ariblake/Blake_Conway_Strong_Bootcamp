@@ -230,6 +230,7 @@ video {
     width: 50%;
     float: right;
     height: 25vh;
+    text-align: center;
 }
 
 #teamMeet h2 {
@@ -254,9 +255,29 @@ video {
     filter: grayscale(100%);
 }
 
+.teamNames {
+    position: absolute;
+    font-size: 1.4em;
+    color: #fff;
+    padding: 7%;
+}
+
 .team:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+}
+
+.teamButtonStyle {
+    background-color: #ff8503;
+    padding: 3%;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2em;
+    margin-left: 5%;
+    margin-right:2%;
+    color: #3F3F3F;
+    cursor: pointer;
 }
 
 /*Services Section*/
@@ -536,9 +557,13 @@ video {
     .team {
         height: 46vh;
     }
+
+    .teamNames {
+        font-size: 1.8em;
+    }
     
     #teamMeet h2 {
-        padding: 18%;
+        padding-top: 18%;
         font-size: 3em;
     }
 
@@ -896,6 +921,10 @@ video {
 
     .team {
         height: 50vh;
+    }
+
+    .teamNames {
+        font-size: 2em;
     }
 
     #team4 {
