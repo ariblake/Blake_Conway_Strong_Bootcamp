@@ -1,10 +1,10 @@
 const Team = {
     Sarah : {
-        name: "name",
-        role: "role",
-        motivation: "motivation",
-        interests: "interests",
-        match: "match"
+        name: "Sarah Conway",
+        role: "Animator, Co-Founder",
+        motivation: "Making cinematic content that blows everyone’s freaking minds",
+        interests: "Cooking new dishes, doodling, and ghosts!",
+        match: "Slow-cooker and Me"
     },
 
     Hillary : {
