@@ -1,30 +1,8 @@
+$(document).foundation();
 
-const Team = {
-    Sarah : {
-        name: "Sarah Conway",
-        role: "Motion Designer, Co-Founder",
-        motivation: "Making cinematic content that blows everyone’s freaking minds",
-        interests: "Cooking new dishes, doodling, and ghosts",
-        match: "Slow-cooker & Me!"
-    },
-
-    Hillary : {
-        name: "Hillary Strong",
-        role: "Graphic Designer, Co-Founder",
-        motivation: "Passion to create an appealing brand for both my eyes and the client",
-        interests: "Testing out new restaurants in the London area, rock climbing, and spin class",
-        match: "Bacon & Eggs!"
-    },
-
-    Ariana : {
-        name: "Ariana Blake",
-        role: "Front-End Developer, Co-Founder",
-        motivation: "Creating cool stuff that is both functional and aesthetically pleasing",
-        interests: "Playing video games, petting dogs, and board game nights with friends",
-        match: "Mac & Cheese!"
-    },
-    
-}
+import Team from "./modules/DataObject.js";
+(() => {
+    console.log('fired!');
 
     //Variables
     let vidPlayer = document.querySelector('video'),
@@ -114,3 +92,5 @@ const Team = {
     rewindBtn.addEventListener('click', rewindVid); //rewinds video to the start when button is clicked		
     muteBtn.addEventListener('click', muteVid); //mute and unmute video when button is clicked
     replayBtn.addEventListener('click', replayVid); //rewinds video to the start when button is clicked
+
+})();
