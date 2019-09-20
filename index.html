@@ -73,12 +73,17 @@
       <div class="grid-x">
         <div class="cell large-12">
           <h2 class="hide">Video</h2>
-          <video>
-            <source src="" type="video/mp4">
-            Sorry, your browser doesn't support video.
-          </video>
-          <div class="controls">
-            
+          <div id="videoBox">
+            <video poster="images/video_placeholder.jpg">
+              <source src="video/matchstick_video.mp4" type="video/mp4">
+              Sorry, your browser doesn't support video.
+            </video>
+            <div class="controls">
+              <img src="images/rewind.png" class="rewind" alt="rewind video">
+              <img src="images/play.png" class="pause" alt="pause video">
+              <img src="images/mute.png" class="mute" alt="mute video">
+              <img src="images/replay.png" class="replay" alt="replay video">
+            </div>
           </div>
         </div>
       </div>
