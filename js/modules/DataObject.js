@@ -1,10 +1,10 @@
 const Team = {
     Sarah : {
         name: "Sarah Conway",
-        role: "Animator, Co-Founder",
+        role: "Motion Designer, Co-Founder",
         motivation: "Making cinematic content that blows everyone’s freaking minds",
-        interests: "Cooking new dishes, doodling, and ghosts!",
-        match: "Slow-cooker and Me"
+        interests: "Cooking new dishes, doodling and ghosts",
+        match: "Slow-cooker & Me!"
     },
 
     Hillary : {
@@ -19,7 +19,7 @@ const Team = {
         name: "Ariana Blake",
         role: "Front-End Developer, Co-Founder",
         motivation: "Creating cool stuff that is both functional and aesthetically pleasing",
-        interests: "Playing video games, petting dogs, and board game nights with friends",
+        interests: "Playing video games, petting dogs and board game nights with friends",
         match: "Mac & Cheese!"
     },
     
