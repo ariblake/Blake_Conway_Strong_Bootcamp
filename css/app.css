@@ -148,12 +148,34 @@ html, body {
 
 /*Video Section*/
 #videoSection {
-    background: url(../images/video_placeholder.jpg) no-repeat center center fixed;
-    background-size: 100%;
-    background-color: #ccc;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    background-color: #eee;
+    /*padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
 
+#videoBox {
+    width: 100%;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-height: 88vh;
+}
+
+.controls
+{
+    padding: 10px;
+    background-color: #ff8503;
+    text-align: center;
+}
+
+.controls img
+{
+	width: 5%;
+	cursor: pointer;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 /*Story Section*/
@@ -491,6 +513,10 @@ html, body {
         font-size: 5em;
     }
 
+    .controls img{
+        width: 3%;
+    }
+
     #storySection {
         padding-top: 20%;
     }
@@ -664,6 +690,11 @@ html, body {
 
     #missionSection p {
         font-size: 1.2em;
+    }
+
+    .controls img
+    {
+	    width: 2%;
     }
 
     /*Story Section*/
@@ -892,6 +923,8 @@ html, body {
     #missionSection p {
         font-size: 1.4em;
     }
+
+    
 
     #storySection {
         column-gap: 4%;
