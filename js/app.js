@@ -69,17 +69,19 @@ import Team from "./modules/DataObject.js";
         console.log(person);
 
         //create a button for every prof (every entry) in our object
-        //let teamButton = document.querySelector('team');
+        //let teamButton = document.querySelector(".team");
         let teamButton = document.createElement('button');
+        //console.log(teamButton);
 
         //set the button's label (text) to the prof name (the current entry in the object)
         teamButton.textContent = person;
+        teamButton.className = "teamButtonStyle";
 
         //add some event handling so that when we click one of our new buttons, we can show the right data
         teamButton.addEventListener('click', showTeamData);
 
         //add the button to the top section on our web page
-        document.querySelector(".teamSectionBio").appendChild(teamButton);
+        document.querySelector("#teamMeet").appendChild(teamButton);
 
     }
 
