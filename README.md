@@ -27,3 +27,7 @@ $ git clone https://github.com/ariblake/Blake_Conway_Strong_Bootcamp
 
 $ cd Blake_Conway_Strong_Bootcamp
 ```
+## Acknowledgements
+* Social media icons (https://www.flaticon.com/home)
+* Gibson font (https://fonts.adobe.com/fonts/gibson)
+* Images (https://unsplash.com/, https://www.pexels.com)
