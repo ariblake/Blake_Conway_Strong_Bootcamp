@@ -3,6 +3,7 @@ This project was built for an assignment for Fanshawe College. In groups of 3, w
 ## Built With
 * [Foundation](https://foundation.zurb.com "Foundation") - Foundation Framework
 * CSS
+* JavaScript
 ## Authors
 * **Ariana Blake** (https://github.com/ariblake) - Front-End Developer
 * **Sarah Conway** (https://github.com/sarahconway69704?tab=repositories) - Motion Designer
@@ -10,6 +11,7 @@ This project was built for an assignment for Fanshawe College. In groups of 3, w
 ## Things We Wanted to Achieve
 - [x] Use Adobe XD for wireframes
 - [x] Responsive design (mobile, tablet and desktop)
+- [x] Keep video to 30 seconds
 - [x] Javascript video player
 - [ ] Javascript biography function
 ## Installation
@@ -30,4 +32,5 @@ $ cd Blake_Conway_Strong_Bootcamp
 ## Acknowledgements
 * Social media icons (https://www.flaticon.com/home)
 * Gibson font (https://fonts.adobe.com/fonts/gibson)
-* Images (https://unsplash.com/, https://www.pexels.com)
+* Images (https://unsplash.com/ and https://www.pexels.com)
+* Video music (https://www.bensound.com/royalty-free-music/track/happy-rock?fbclid=IwAR3BsyBzQWixrzOE7mg7SFxLbfUVzhAI2595n7wbtS5rTJO9Fs8rz-lSCjc)
