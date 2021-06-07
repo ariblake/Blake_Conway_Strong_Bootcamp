@@ -9,14 +9,15 @@ h1 {
     font-family: canada-type-gibson, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 2em;
+    font-size: 2.3em;
+    color:  white;
 }
 
 h2 {
     font-family: canada-type-gibson,sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.8em;
     color: #3F3F3F;
 }
 
@@ -24,7 +25,7 @@ h3 {
     font-family: canada-type-gibson, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 p {
@@ -42,8 +43,17 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/*Header*/
+.textSection {
+    padding: 30% 10%;
+    text-align: center;
+}
 
+.textSection h2 {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/*Header*/
 #mainHeader {
     background-color: #fff;
 }
@@ -112,7 +122,7 @@ html, body {
     background: linear-gradient(rgba(255, 133, 3, 0.5), rgba(255, 133, 3, 0.5)),
                 url(../images/heroImg.jpg) no-repeat center fixed;
     text-align: center;
-    height: 93vh;
+    height: 63vh;
     display: block;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -122,34 +132,16 @@ html, body {
 
 #heroSection h1 {
     padding-top: 45%;
-    color:  white;
-    font-size: 4em;
     line-height: 100%;
-
 }
 
 #heroSection h3 {
     color:  white;
 }
 
-/*Mission Section*/
-#missionSection {
-    height: 93vh;
-    padding-top: 30%;
-    padding-left: 12%;
-    padding-right: 12%;
-    text-align: center;
-}
-
-#missionSection h2 {
-    font-size: 2.6em;
-    margin-bottom: 10%;
-}
-
 /*Video Section*/
 #videoSection {
     background-color: #ff8503;
-    /*padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
 
 #videoBox {
@@ -174,27 +166,12 @@ video {
 {
 	width: 5%;
 	cursor: pointer;
-    margin-right: 1%;
-    margin-left: 1%;
-}
-
-/*Story Section*/
-#storySection {
-    height: 93vh;
-    padding-top: 25%;
-    padding-left: 12%;
-    padding-right: 12%;
-    text-align: center;
-}
-
-#storySection h2 {
-    font-size: 2.6em;
-    margin-bottom: 10%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 /*Team Section*/
 #teamSection {
-    height: 93vh;
     background-color: #ff8503;
 }
 
@@ -202,22 +179,18 @@ video {
     background: linear-gradient(rgba(255, 133, 3, 0.9), rgba(255, 133, 3, 0.9)),
                 url(../images/bio_bckgrd.jpg) no-repeat center fixed;
     background-size: 300%;
-    height: 42vh;
     text-align: center;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 5% 10%;
 }
 
 .teamSectionBio h2 {
     color: white;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 .teamSectionBio h3 {
     color: white;
-    font-size: 1.6em;
-    padding-bottom: 5%;
+    font-size: 1.2em;
 }
 
 .teamSectionBio p {
@@ -226,7 +199,7 @@ video {
 }
 
 #teamMeet {
-    background-color: white;
+    background-color: #eee;
     width: 50%;
     float: right;
     height: 25vh;
@@ -234,9 +207,9 @@ video {
 }
 
 #teamMeet h2 {
-    text-align: center;
-    padding-top: 15%;
-    font-size: 2.6em;
+    padding-top: 8%;
+    font-size: 1.8em;
+    line-height: 100%;
     color: #3F3F3F;
 }
 
@@ -257,7 +230,6 @@ video {
 
 .teamNames {
     position: absolute;
-    font-size: 1.4em;
     color: #fff;
     padding: 7%;
 }
@@ -273,26 +245,14 @@ video {
     font-family: canada-type-gibson, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.2em;
-    margin-left: 5%;
-    margin-right:2%;
+    margin: 0% 2% 5% 2%;
     color: #3F3F3F;
     cursor: pointer;
 }
 
 /*Services Section*/
 #servicesSection {
-    height: 93vh;
-    padding-top: 25%;
-    padding-left: 12%;
-    padding-right: 12%;
     text-align: left;
-}
-
-#servicesSection h2 {
-    font-size: 2.6em;
-    margin-bottom: 10%;
-    text-align: center;
 }
 
 #servicesSection ul {
@@ -307,7 +267,6 @@ video {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #FAC952;
     font-weight: bold; /* If you want it to be bold */
-    font-size: 1.4em;
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
@@ -325,8 +284,6 @@ video {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 110%;
-    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #ff8503;
@@ -338,7 +295,8 @@ video {
   
   .overlayText {
     color: white;
-    font-size: 20px;
+    font-size: 1.6em;
+    font-family: canada-type-gibson, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -352,10 +310,7 @@ video {
   #contactSection {
     height: 93vh;
     background-color: #eee;
-    padding-top: 25%;
-    padding-left: 12%;
-    padding-right: 12%;
-    color: #3F3F3F;
+    padding: 25% 10%;
     text-align: center;
   }
 
@@ -382,8 +337,8 @@ video {
     #mainFooter {
         background-color: #ff8503;
         padding-top: 5%;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
         text-align: center;
     }
 
@@ -400,14 +355,13 @@ video {
         width: 10%;
     }
 
-
     /*PORTFOLIO PAGE-----------------------------------------------------------------------------*/
     /*Hero Section*/
     #heroSection_portfolio {
         background: linear-gradient(rgba(214, 214, 214, 0.5), rgba(214, 214, 214, 0.5)),
                     url(../images/heroImg_portfolio.jpg) no-repeat center fixed;
         text-align: center;
-        height: 93vh;
+        height: 63vh;
         display: block;
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -417,27 +371,11 @@ video {
     
     #heroSection_portfolio img {
         width: 40%;
-        padding-top: 50%;
-    }
-
-    /*About Section*/
-    #aboutSection_portfolio {
-        height: 93vh;
-        padding-top: 30%;
-        padding-left: 12%;
-        padding-right: 12%;
-        text-align: center;
-    }
-    
-    #aboutSection_portfolio h2 {
-        font-size: 2.6em;
-        margin-bottom: 10%;
+        padding-top: 40%;
     }
 
     /*Image Section*/
-
     #imageSection_portfolio {
-        height: 93vh;
         overflow: hidden;
     }
 
@@ -447,34 +385,6 @@ video {
 
     .chicoImg img {
         width: 100%;
-    }
-
-    /*Brand Section*/
-    #brandSection_portfolio {
-        height: 93vh;
-        padding-top: 25%;
-        padding-left: 12%;
-        padding-right: 12%;
-        text-align: center;
-    }
-    
-    #brandSection_portfolio h2 {
-        font-size: 2.6em;
-        margin-bottom: 10%;
-    }
-    
-     /*Build Section*/
-     #buildSection_portfolio {
-        height: 93vh;
-        padding-top: 30%;
-        padding-left: 12%;
-        padding-right: 12%;
-        text-align: center;
-    }
-    
-    #buildSection_portfolio h2 {
-        font-size: 2.6em;
-        margin-bottom: 10%;
     }
 
     /*Design Section*/
@@ -499,95 +409,70 @@ video {
         background-color: #02506b;
     }
 
-
-@media screen and (min-width: 40em) /*L Phone Size*/ {
-    .teamSectionBio {
-        height: 30vh;
-        padding-top: 2%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    
-    #teamMeet {
-        height: 30vh;
-        padding-top: 5%;
-    }
-    
-    .team {
-        height: 30vh;
-        width: 50%;
-    }
-
-    .teamSectionBio h2 {
-        font-size: 1.8em;
-    }
-    
-    .teamSectionBio h3 {
-        font-size: 1.4em;
-        padding-bottom: 0%;
-    }
-}
-
 @media screen and (min-width: 48em) /*Tablet Size*/ {
+    h1 {
+        font-size: 4em;
+    }
+    
+    h2 {
+        font-size: 2.6em;
+    }
+    
+    h3 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.6em;
+    }
+    
+    .textSection {
+        padding: 20% 10%;
+    }
+
     #heroSection h1 {
-        padding-top:35%;
-        font-size: 5em;
+        padding-top: 35%;
     }
 
     .controls img{
         width: 3%;
     }
 
-    #storySection {
-        padding-top: 20%;
-    }
-
-    #storySection h2 {
-        margin-bottom: 5%;
-    }
-
-    #teamSection {
-        height: 132vh;
-    }
-
     #teamMeet {
-        height: 46vh;
-    }
-
-    .team {
-        height: 46vh;
-    }
-
-    .teamNames {
-        font-size: 1.8em;
-    }
-    
-    #teamMeet h2 {
-        padding-top: 18%;
-        font-size: 3em;
-    }
-
-    .teamSectionBio {
         height: 40vh;
     }
 
-    /*Services Section*/
-    #servicesSection {
-        padding-top: 20%;
+    .team {
+        height: 40vh;
     }
 
+    #teamMeet h2 {
+        padding-top: 25%;
+        font-size: 2.6em;
+    }
+
+    /*Services Section*/
     #servicesSection ul {
         column-count: 2;
         column-gap: 10%;
-        padding-left: 10%;
         font-size: 1.6em;
         line-height: 2em;
+    }
+
+    /*Portfolio Section*/
+    .overlayText {
+        font-size: 2em;
     }
 
     #socialMedia img {
         width: 8%;
     }
 
+    /*Contact Section*/
+    #contactSection {
+        height: auto;
+        padding: 20% 10%;
+    }
 
     /*PORTFOLIO PAGE*/
     #heroSection_portfolio img {
@@ -596,21 +481,13 @@ video {
     }
 
      /*About Section*/
-    #aboutSection_portfolio {
-        padding-top: 20%;
-    }
-    
-    #aboutSection_portfolio h2 {
-        margin-bottom: 5%;
-    }
-
     #aboutSection_portfolio p {
         text-align: left;
     }
 
     /*Image Section*/
     #imageSection_portfolio {
-        height: 52vh;
+        height: 40vh;
         overflow: hidden;
     }
 
@@ -619,14 +496,6 @@ video {
     }
 
     /*Brand Section*/
-    #brandSection_portfolio {
-        padding-top: 20%;
-    }
-    
-    #brandSection_portfolio h2 {
-        margin-bottom: 5%;
-    }
-
     #brandSection_portfolio p {
         text-align: left;
     }
@@ -646,22 +515,33 @@ video {
     }
 
     /*Build Section*/
-    #buildSection_portfolio {
-        padding-top: 20%;
-
-    }
-    
-    #buildSection_portfolio h2 {
-        margin-bottom: 5%;
-    }
-
     #buildSection_portfolio p {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 64em) /*Laptop Small Size*/ {
+    h1 {
+        font-size: 5em;
+    }
+    
+    h2 {
+        font-size: 2.6em;
+    }
+    
+    h3 {
+        font-size: 2.4em;
+    }
 
+    p {
+        font-size: 1.2em;
+    }
+    
+    .textSection {
+        padding: 10% 16%;
+        height: 93vh;
+    }
+    
     #mainHeader {
         padding: 10px;
     }
@@ -678,43 +558,25 @@ video {
 		border-bottom: none;
         display: inline;
         padding: 20px;
-        font-size: 1em;
 	}
 
 	#mainNav li a {
 		display: inline;
 		color: #707070;
 		background-color: transparent;
-
     }
     
     #mainNav li a:hover {
 		background-color: transparent;
 		color: #ff8503;
     }
+
+    #heroSection {
+        height: 93vh;
+    }
     
     #heroSection h1 {
         padding-top: 25%;
-    }
-
-    #heroSection h3 {
-        font-size: 1.6em;
-    }
-
-    /*Mission Section*/
-    #missionSection {
-        padding-top: 16%;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-    #missionSection h2 {
-        font-size: 3em;
-        margin-bottom: 5%;
-    }
-
-    #missionSection p {
-        font-size: 1.2em;
     }
 
     .controls img
@@ -727,30 +589,25 @@ video {
         column-count: 2;
         -webkit-column-count: 2;
         -moz-column-count: 2;
-        column-gap: 8%;
-        padding-top: 12%;
-        padding-left: 20%;
-        padding-right: 20%;
+        column-gap: 5%;
         text-align: left;
     }
 
     #storySection h2 {
-        font-size: 3em;
-        margin-bottom: 5%;
-    }
-
-    #storySection p {
-        font-size: 1.2em;
-    }
-
-    #teamSection {
-        height: 93vh;
-        overflow: hidden;
+        text-align: left;
     }
 
     .teamSectionBio {
-        height: 93vh;
-        padding-top: 20%;
+        background-size: 200%;
+        padding: 10% 8%;
+    }
+
+    .teamSectionBio h2 {
+        font-size: 2em;
+    }
+
+    .teamSectionBio h3 {
+        font-size: 1.4em;
     }
 
     #teamMeet {
@@ -762,55 +619,25 @@ video {
         height: 31vh;
     }
 
-    #team4 {
-        float: none;
+    .teamNames {
+        font-size: 1.6em;
     }
-
-
-    /*Services Section*/
-    #servicesSection {
-        height: 93vh;
-        padding-top: 8%;
-        padding-left: 15%;
-        padding-right: 15%;
-        text-align: left;
-        
-    }
-
-    #servicesSection ul {
-        column-count: 2;
-        column-gap: 8%;
-        padding-left: 15%;
-        font-size: 1.8em;
-    }
-
-    #servicesSection h2 {
-        font-size: 3em;
+    
+    .teamButtonStyle {
+        padding: 4%;
     }
 
     /*Portfolio Section*/
     #portfolioSection {
-        height: 93vh;
         overflow: hidden;
     }
 
     .portfolio {
-        height: 46vh;
+        height: 43vh;
     }
 
     #contactSection {
-        padding-top: 15%;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-    #contactSection h1 {
-        font-size: 3em;
-    }
-
-    #contactSection p {
-        font-size: 1.2em;
-        padding-bottom: 5%;
+        padding: 15% 20%;
     }
 
     #name {
@@ -836,25 +663,18 @@ video {
     }
 
     /*PORTFOLIO PAGE*/
+    #heroSection_portfolio {
+        height: 93vh;
+    }
+
     #heroSection_portfolio img {
         width: 20%;
         padding-top: 22%;
     }
 
     /*About Section*/
-    #aboutSection_portfolio {
-        padding-top: 12%;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-    
     #aboutSection_portfolio h2 {
-        font-size: 3em;
         text-align: left;
-    }
-
-    #aboutSection_portfolio p {
-        font-size: 1.2em;
     }
 
     /*Image Section*/
@@ -864,38 +684,27 @@ video {
 
     /*Brand Section*/
     #brandSection_portfolio {
-        padding-top: 12%;
-        padding-left: 20%;
-        padding-right: 20%;
         column-count: 2;
-        column-gap: 8%;
+        column-gap: 5%;
     }
     
     #brandSection_portfolio h2 {
-        font-size: 3em;
         text-align: left;
     }
 
-    #brandSection_portfolio p {
-        font-size: 1.2em;
+    /*Site Section*/
+    #siteSection_portfolio {
+        height: auto;
     }
 
     /*Build Section*/
     #buildSection_portfolio {
-        padding-top: 12%;
-        padding-left: 20%;
-        padding-right: 20%;
         column-count: 2;
-        column-gap: 8%;
+        column-gap: 5%;
     }
     
     #buildSection_portfolio h2 {
-        font-size: 3em;
         text-align: left;
-    }
-
-    #buildSection_portfolio p {
-        font-size: 1.2em;
     }
 
     /*Design Section*/
@@ -914,6 +723,10 @@ video {
 }
 
 @media screen and (min-width: 84.125em) { /*medium laptop*/
+    #heroSection h1 {
+        padding-top: 20%;
+    }
+
     #teamMeet {
         height: 50vh;
         padding-top: 10%;
@@ -926,53 +739,23 @@ video {
     .teamNames {
         font-size: 2em;
     }
-
-    #team4 {
-        float: right;
-    }
 }
 
 @media screen and (min-width: 90em) /*Large Laptop Size*/ {
-    #heroSection h1 {
-        padding-top: 18%;
+    h2 {
+        font-size: 2.8em;
     }
 
-    /*Mission Section*/
-    #missionSection {
-        padding-top: 12%;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-
-    #missionSection h2 {
-        font-size: 3.2em;
-        margin-bottom: 5%;
-    }
-
-    #missionSection p {
+    p {
         font-size: 1.4em;
     }
-
     
-
-    #storySection {
-        column-gap: 4%;
-        padding-top: 10%;
-        padding-left: 25%;
-        padding-right: 25%;
+    .textSection {
+        padding: 8% 8%;
     }
 
-    #storySection h2 {
-        font-size: 3.2em;
-        margin-bottom: 5%;
-    }
-
-    #storySection p {
-        font-size: 1.4em;
-    }
-
-    .teamSectionBio {
-        padding-top: 15%;
+    #teamMeet {
+        padding-top: 5%;
     }
 
     .teamSectionBio h2 {
@@ -980,23 +763,11 @@ video {
     }
 
     .teamSectionBio h3 {
-        font-size: 2em;
-    }
-
-    .teamSectionBio p {
-        font-size: 1.4em;
+        font-size: 1.8em;
     }
 
     #contactSection {
         padding-top: 12%;
-    }
-
-    #contactSection h2 {
-        font-size: 3.2em;
-    }
-
-    #contactSection p {
-        font-size: 1.4em;
     }
 
     #mainFooter {
@@ -1009,72 +780,13 @@ video {
         padding-top: 15%;
     }
 
-    /*About Section*/
-    #aboutSection_portfolio {
-        padding-top: 12%;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-    
-    #aboutSection_portfolio h2 {
-        font-size: 3.2em;
-    }
-
-    #aboutSection_portfolio p {
-        font-size: 1.4em;
-    }
-
     /*Image Section*/
     #imageSection_portfolio {
-        height: 93vh;
-    }
-
-    /*Brand Section*/
-    #brandSection_portfolio {
-        column-gap: 4%;
-        padding-top: 10%;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-top: 12%;
-    }
-    
-    #brandSection_portfolio h2 {
-        font-size: 3.2em;
-    }
-
-    #brandSection_portfolio p {
-        font-size: 1.4em;
-    }
-
-    /*Build Section*/
-    #buildSection_portfolio {
-        column-gap: 4%;
-        padding-top: 10%;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-top: 12%;
-    }
-    
-    #buildSection_portfolio h2 {
-        font-size: 3.2em;
-    }
-
-    #buildSection_portfolio p {
-        font-size: 1.4em;
+        height: 80vh;
     }
 
     /*Design Section*/
     #designSection_portfolio {
-        height: 96vh;
-        overflow: hidden;
+        height: 80vh;
     }
-
-    .chicoDesign {
-        height: 96vh;
-    }
-
-    .chicoDesign img {
-        width: 100%;
-    }
-
 }
