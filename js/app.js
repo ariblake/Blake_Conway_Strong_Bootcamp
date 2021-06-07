@@ -68,12 +68,12 @@ import Team from "./modules/DataObject.js";
     for (let person in Team) {
         console.log(person);
 
-        //create a button for every prof (every entry) in our object
+        //create a button for every team member (every entry) in our object
         //let teamButton = document.querySelector(".team");
         let teamButton = document.createElement('button');
         //console.log(teamButton);
 
-        //set the button's label (text) to the prof name (the current entry in the object)
+        //set the button's label (text) to the name (the current entry in the object)
         teamButton.textContent = person;
         teamButton.className = "teamButtonStyle";
 
