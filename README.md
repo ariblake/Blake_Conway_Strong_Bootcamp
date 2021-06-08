@@ -1,19 +1,27 @@
 # Matchstick - Spark Creativity
 This project was built for an assignment for Fanshawe College. In groups of 3, we were to create, brand and build a fictional startup agency. After brainstorming, the name Matchstick was born. Matchstick is an advertising and marketing agency located in London, Ontario. This name described our mission statement words perfectly; we are passionate about our work, we strive to find the latest brand and marketing trends and overall, we are hot :fire:
+
 ## Built With
-* [Foundation](https://foundation.zurb.com "Foundation") - Foundation Framework
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS#targetText=Cascading%20Style%20Sheets%20(CSS)%20is,speech%2C%20or%20on%20other%20media. "CSS") - Stylesheet Language
-* JavaScript - Video and Biography Functions
+* HTML
+* CSS
+* JavaScript
+* [Foundation](https://get.foundation/) - Responsive Front-end Framework
+
 ## Authors
 * **Ariana Blake** (https://github.com/ariblake) - Front-End Developer
-* **Sarah Conway** (https://github.com/sarahconway69704?tab=repositories) - Motion Designer
+* **Sarah Conway** (https://github.com/sarahconway69704) - Motion Designer
 * **Hillary Strong** (https://github.com/hillary25) - Graphic Designer
+
 ## Things We Wanted to Achieve
 - [x] Use Adobe XD for wireframes
-- [x] Responsive design (mobile, tablet and desktop)
+- [x] Fully responsive design (mobile, tablet and desktop)
 - [x] Keep video to 30 seconds
-- [x] Javascript video player
-- [x] Javascript biography button function
+- [x] Javascript custom video player
+- [x] Javascript biography section using objects
+
+## Live Demo
+[View a live demo of the site](https://arianablake-matchstick.netlify.app/)
+
 ## Installation
 Open Terminal on your computer
 ```
@@ -29,6 +37,7 @@ $ git clone https://github.com/ariblake/Blake_Conway_Strong_Bootcamp
 
 $ cd Blake_Conway_Strong_Bootcamp
 ```
+
 ## Acknowledgements
 * Social media icons (https://www.flaticon.com/home)
 * Gibson font (https://fonts.adobe.com/fonts/gibson)
